@@ -1,31 +1,62 @@
 {
-  "name": "pushwoosh-react-native-plugin",
-  "version": "5.7.0",
-  "description": "This plugin allows you to send and receive push notifications. Powered by Pushwoosh (www.pushwoosh.com).",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Pushwoosh/pushwoosh-react-native-plugin.git"
+  "_from": "pushwoosh-react-native-plugin@5.6.3",
+  "_id": "pushwoosh-react-native-plugin@5.6.3",
+  "_inBundle": false,
+  "_integrity": "sha512-Hqr+cwxqLCCMUjSB2yaegHCd0RK/2EybmGFO1iNP9K0S2EFBpjVlCl3AjENQoy0rcROA544JQVxQ/alHrbKCwA==",
+  "_location": "/pushwoosh-react-native-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "pushwoosh-react-native-plugin@5.6.3",
+    "name": "pushwoosh-react-native-plugin",
+    "escapedName": "pushwoosh-react-native-plugin",
+    "rawSpec": "5.6.3",
+    "saveSpec": null,
+    "fetchSpec": "5.6.3"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/pushwoosh-react-native-plugin/-/pushwoosh-react-native-plugin-5.6.3.tgz",
+  "_shasum": "6fb94ffa459e91979846ce5097d0d3536f7e8cbc",
+  "_spec": "pushwoosh-react-native-plugin@5.6.3",
+  "_where": "/Users/vromanychev/Desktop/projects/reactnative/rnpods570",
+  "author": {
+    "name": "Pushwoosh"
+  },
+  "bugs": {
+    "url": "https://github.com/Pushwoosh/pushwoosh-react-native-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "This plugin allows you to send and receive push notifications. Powered by Pushwoosh (www.pushwoosh.com).",
+  "homepage": "https://github.com/Pushwoosh/pushwoosh-react-native-plugin#readme",
   "keywords": [
     "push",
     "notification"
   ],
-  "author": "Pushwoosh",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Pushwoosh/pushwoosh-react-native-plugin/issues"
+  "main": "index.js",
+  "name": "pushwoosh-react-native-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pushwoosh/pushwoosh-react-native-plugin.git"
   },
   "rnpm": {
     "android": {
       "sourceDir": "./src/android"
     },
     "ios": {
-      "sharedLibraries" : [ 
-        "libstdc++", 
-        "libz" 
+      "sharedLibraries": [
+        "libstdc++",
+        "libz"
       ],
-      "assets" : [ "./src/ios/PushwooshInboxBundle.bundle" ]
+      "assets": [
+        "./src/ios/PushwooshInboxBundle.bundle"
+      ]
     }
-  }
+  },
+  "version": "5.6.3"
 }
